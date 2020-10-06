@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>hci472</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-warning">
+    <a class="navbar-brand" href="/hci472/index.html">HCI 472</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <!-- <li class="nav-item active">
+          <a class="nav-link" href="hci472/index.html">Home <span class="sr-only">(current)</span></a>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type Hierarchies</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="type/index.html">Introduction</a>
+            <a class="dropdown-item" href="type/hierarchy1.html">One</a>
+            <a class="dropdown-item" href="type/hierarchy2.html">Two</a>
+            <a class="dropdown-item" href="type/hierarchy3.html">Three</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main role="main">
+  
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+
+    <div class="jumbotron bg-light">
+      <div class="container">
+        <h1 class="display-3">HCI 472 Project Site</h1>
+        <p>Hi, I'm Natalie, and this is my project site for HCI472 at DePaul University.</p>
+      </div>
+    </div>
+  
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Typographical Hierarchies</h2>
+          <p>Three examples of typographical hierarchies created using a modular scale. </p>
+          <p><a class="btn btn-info" href="type/" role="button">View details &raquo;</a></p>
+        </div>
+        <!-- <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div> -->
+      </div>
+  
+      <hr>
+  
+    </div> <!-- /container -->
+  
+  </main>
+  
+  <footer class="container">
+    <p>&copy; Natalie Roman 2020</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script>
+$(function() {
+  var topoffset = 70; //variable for menu height
+
+  //Use smooth scrolling when clicking on navigation
+  $('.navbar-nav a').click(function() {
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
+      location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top-topoffset
+        }, 500);
+        return false;
+      } //target.length
+    } //click function
+  }); //smooth scrolling
+});
+
+</script>
+</body>
+</html>
