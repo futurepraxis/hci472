@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Type Hierarchy based on a Major Second*/  
+
+h1,h2,h3,h4,h5{
+	font-family:Avenir Next, Arial, Helvetica, sans-serif;
+  color: #323A40
+}
+
+h1 {
+	font-size: 1.802em;
+}
+
+h2 {
+	font-size: 1.602em;
+}
+
+h3 {
+	font-size: 1.424em;
+
+}
+
+h4 {
+  font-size: 1.266em;
+
+}
+h5 {
+  font-size: 1.125em;
+
+}
+p {
+	font-family:Avenir Next, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+  line-height: 1.325em;
+  color: #323A40
+}
+
+
+a {
+  color: #FF4E00;
+  text-decoration: none;
+  line-height: inherit;
+  }   
+  
+a:hover, a:focus {
+    color: #0097c9; 
+} 
+
+.hover-style-for-system{
+  padding-top: 10px;
+  margin-bottom: -1px;
+}
+
+.btn-link{
+  color: #FF4E00;
+}
+
+.lead{
+  font-size: 1rem;
+  color: #323A40;
+}
+
+.no-bull  {
+	list-style-type: none;
+}
+
+.text-footer{
+	font-size: 0.889em;
+  color: #707070;
+}
+
+.emphasisTxt{
+  color:#0097c9;
+  font-weight: bold;
+ 
+}
+
+.footer{
+  font-size: 0.79em;
+  background-color: #F7F7F7 ;
+  width: 100%;
+  padding-left: 13rem;
+
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.btn-primary{
+  background-color: transparent;
+  color: #fc5219;
+  border-color: #FF4E00;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0097c9;
+  border-color: #0097c9;
+}
+
+.boldTxt{
+  font-weight: bold;
+}
+
+.codeArea{
+  background-color: #e0e0e0;
+  border-width: 1px;
+  border-color: #707070;
+}
+.indentSpacer{
+  padding-left: 25px;
+
+}
+
+.xmargin{
+  margin-top: 10px;
+}
+
+.sidebar{
+  height: 100vh;
+  background: #E0E0E0;
+
+}
+
+.vertical-nav {
+  min-width: 12rem;
+  width: 12rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.selected{
+   background-color: #000;
+   
+}
+.code-font{
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: .9rem;
+}
+
+.page-content {
+  width: calc(100%-13rem);
+  margin-left: 13rem;
+  margin-top: 2rem;
+  transition: all 0.2s;
+}
+
+hr.solid {
+  border-top: 1px solid #bbb;
+  width: 10rem;
+}
+
+hr.solid2 {
+  border-top: 1px solid #bbb;
+  width: 100%;
+}
+.jumbotron-lg{
+  height: 400px;
+  text-align: center;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #0097c9;;
+    border-color: #0097c9;;
+}
+
+.page-link{
+  color: #FE5519;
+}
+.artboard{
+  border: 1px solid #707070;
+  margin-bottom: 20px;
+
+}
+
+.artboard2{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+
+
+}
+
+.artboard_mobile{
+  border: 1px solid #707070;
+  margin-bottom: 20px;
+  max-width: 834px;
+
+}
+
+.artboard_phone{
+  border: 1px solid #707070;
+  margin-bottom: 20px;
+  max-width: 375px;
+
+}
+

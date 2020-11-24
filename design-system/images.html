@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap.min-new.css">
+   <link rel="stylesheet" href="../css/custom.css">
+  <title>hci472: design system</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-warning">
+          <a class="navbar-brand" href="/hci472/index.html">HCI 472</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type Hierarchies</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="index.html">Introduction</a>
+                  <a class="dropdown-item" href="hierarchy1.html">One</a>
+                  <a class="dropdown-item" href="hierarchy2.html">Two</a>
+                  <a class="dropdown-item" href="hierarchy3.html">Three</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../logos/index.html">Logos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../design-system">Design System</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+<div class="container-lg">
+  <!-- Vertical navbar -->
+  <div class="vertical-nav bg-light mt-5" id="sidebar">
+    <div class="py-2 px-3 mb-4 bg-light">
+         &nbsp;
+      </div>
+
+      <p class="text-dark font-weight-bold text-uppercase px-3 large mb-2" data-toggle="collapse" href="#collapseFoundation" aria-haspopup="true" aria-expanded="false">Foundation </p>
+
+      <div class="collapse" id="collapseFoundation" >
+
+          <ul class="nav flex-column bg-light mb-0">
+              <li class="nav-item">
+                  <a href="typography.html" class="text-dark nav-link">
+                      Typography
+                    </a>
+              </li>
+              <li class="nav-item">
+                  <a href="color.html" class="text-dark nav-link">
+                    Color
+                    </a>
+              </li>
+              <li class="nav-item">
+                  <a href="logo.html" class="text-dark nav-link">
+                      Logo
+                    </a>
+              </li>
+            </ul>
+
+</div>
+
+<hr class="solid">
+
+<p class="text-dark font-weight-bold text-uppercase px-3 large mb-2" data-toggle="collapse" href="#collapseComponent" aria-haspopup="true" aria-expanded="false">Components</p>
+
+      <div class="collapse" id="collapseComponent">
+          <ul class="nav flex-column bg-light mb-0">
+              <li class="nav-item">
+                  <a href="navigation.html" class="text-dark nav-link">Navigation</a>
+              </li>
+              <li class="nav-item">
+                  <a href="images.html" class="text-dark nav-link">Images</a>
+              </li>
+              <li class="nav-item">
+                <a href="accordians.html" class="text-dark nav-link">Accordians</a>
+            </li>
+            <li class="nav-item">
+                <a href="cards.html" class="text-dark nav-link">Cards</a>
+            </li>
+            <li class="nav-item">
+                <a href="buttons.html" class="text-dark nav-link">Buttons</a>
+            </li>
+            </ul>
+</div>
+<hr class="solid">
+
+<p class="text-dark font-weight-bold text-uppercase px-3 large mb-2" data-toggle="collapse" href="#collapsePatterns" aria-haspopup="true" aria-expanded="false">Page Patterns</p>
+
+      <div class="collapse" id="collapsePatterns">
+          <ul class="nav flex-column bg-light mb-0">
+              <li class="nav-item">
+                  <a href="home-pattern.html" class="text-dark nav-link">
+                    Home page
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="portfolio-pattern.html" class="text-dark nav-link">
+                    Portfolio page
+                  </a>
+              </li>
+            </ul>
+	</div>
+<hr class="solid">
+        
+</div>
+<!-- End vertical navbar -->
+
+ 
+
+		<div class="page-content pt-2">
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+                    
+    <div class="jumbotron bg-light">
+        
+        <h1 class="display-4">Image Components</h1>
+        <p class="lead">Bootstrap classes for width, margin, and padding are noted for each individual component as needed.</p>
+      
+    </div> <!-- /jumbotron -->
+      		<div class="row">
+       			<div class="container-fluid pr-5 pl-5">
+		            <h2>Carousel</h2>
+		               <p>Carousel images should include a slide title and caption.
+                      </p>
+                      <p><ul>
+                          <li>Max-width: 690px (note: images span the full width of the content area of the layout, which is a max width of 690px)</li>
+                          <li>Margin-top: mt-5 </li>
+                          <li>Margin-bottom: mb-5 </li>
+                      </ul></p>
+                      <!-- Example -->
+                      <div class="container-fluid DS-carousel mt-5 mb-5">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner DS-carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="../images/design-system/slide1.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block DS-carousel-caption">
+                                <h2 class="DS-h2 text-light">First Slide Title</h2>
+                                <p class="DS-p text-light">If Lacanist obscurity holds, the works of Fellini are postmodern.</p>
+                              </div>
+                            </div>
+                            
+                            <div class="carousel-item DS-carousel-inner">
+                              <img src="../images/design-system/slide2.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block DS-carousel-caption">
+                                  <h2 class="DS-h2 text-light">Second Slide Title</h2>
+                                  <p class="DS-p text-light">If Lacanist obscurity holds, the works of Fellini are postmodern.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item DS-carousel-inner">
+                              <img src="../images/design-system/slide3.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block DS-carousel-caption">
+                                  <h2 class="DS-h2 text-light">Second Slide Title</h2>
+                                  <p class="DS-p text-light">If Lacanist obscurity holds, the works of Fellini are postmodern.</p>
+                                </div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!-- /example -->
+                      <h3>Code Snippet</h3>
+                      <pre class="pre-scrollable bg-light mb-5">
+                          <code class="text-left">
+&lt;div class=&quot;container-fluid DS-carousel mt-5 mb-5&quot;&gt;
+&lt;div id=&quot;carouselExampleCaptions&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+&lt;ol class=&quot;carousel-indicators&quot;&gt;
+&lt;li data-target=&quot;#carouselExampleCaptions&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+&lt;li data-target=&quot;#carouselExampleCaptions&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+&lt;li data-target=&quot;#carouselExampleCaptions&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;carousel-inner DS-carousel-inner&quot;&gt;
+&lt;div class=&quot;carousel-item active&quot;&gt;
+&lt;img src=&quot;../images/design-system/slide1.png&quot; class=&quot;d-block w-100&quot; alt=&quot;...&quot;&gt;
+&lt;div class=&quot;carousel-caption d-none d-md-block DS-carousel-caption&quot;&gt;
+&lt;h2 class=&quot;DS-h2 text-light&quot;&gt;First Slide Title&lt;/h2&gt;
+&lt;p class=&quot;DS-p text-light&quot;&gt;If Lacanist obscurity holds, the works of Fellini are postmodern.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;                         
+&lt;div class=&quot;carousel-item DS-carousel-inner&quot;&gt;
+&lt;img src=&quot;../images/design-system/slide2.png&quot; class=&quot;d-block w-100&quot; alt=&quot;...&quot;&gt;
+&lt;div class=&quot;carousel-caption d-none d-md-block DS-carousel-caption&quot;&gt;
+&lt;h2 class=&quot;DS-h2 text-light&quot;&gt;Second Slide Title&lt;/h2&gt;
+&lt;p class=&quot;DS-p text-light&quot;&gt;If Lacanist obscurity holds, the works of Fellini are postmodern.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;carousel-item DS-carousel-inner&quot;&gt;
+&lt;img src=&quot;../images/design-system/slide3.png&quot; class=&quot;d-block w-100&quot; alt=&quot;...&quot;&gt;
+&lt;div class=&quot;carousel-caption d-none d-md-block DS-carousel-caption&quot;&gt;
+&lt;h2 class=&quot;DS-h2 text-light&quot;&gt;Second Slide Title&lt;/h2&gt;
+&lt;p class=&quot;DS-p text-light&quot;&gt;If Lacanist obscurity holds, the works of Fellini are postmodern.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleCaptions&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+&lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+&lt;/a&gt;
+&lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleCaptions&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+&lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+                    <h2>Image with Caption</h2>
+                    <p>Single, stand-alone images should include a caption.</p>
+                    <p><ul>
+                        <li>Max-width: 690px (note: images span the full width of the content area of the layout, which is a max width of 690px)</li>
+                        <li>Margin-top: mt-5 </li>
+                        <li>Margin-bottom: mb-5 </li>
+                        <li>Padding: p-0</li>
+                    </ul></p>
+                    <!-- Example -->
+                    <div class="card DS-card p-0 mt-5 mb-5">
+                        <img src="../images/design-system/slide1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center p-2">If Lacanist obscurity holds, the works of Fellini are postmodern.</p>
+                        </div>
+                      </div>
+
+                    <!-- /example -->
+                      <h3>Code Snippet</h3>
+                    <pre class="pre-scrollable bg-light mb-5">
+                        <code class="text-left">
+&lt;div class=&quot;card DS-card p-0 mt-5 mb-5&quot;&gt;
+&lt;img src=&quot;../images/design-system/slide1.png&quot; class=&quot;card-img-top&quot; alt=&quot;...&quot;&gt;
+&lt;div class=&quot;card-body&quot;&gt;
+&lt;p class=&quot;card-text text-center p-2&quot;&gt;If Lacanist obscurity holds, the works of Fellini are postmodern.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                            </pre>
+
+		        </div><!-- /container -->
+      </div><!-- /Row -->
+      <hr>
+      <footer class="container">
+        <p>&copy; Natalie Roman 2020</p>
+      </footer>
+    <!-- /footer -->
+  </div><!--  /content -->
+</div><!-- /container -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<script>
+$(function() {
+  var topoffset = 70; //variable for menu height
+
+  //Use smooth scrolling when clicking on navigation
+  $('.navbar-nav a').click(function() {
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
+      location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top-topoffset
+        }, 500);
+        return false;
+      } //target.length
+    } //click function
+  }); //smooth scrolling
+});
+
+</script>
+</body>
+</html>
