@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/nyk5hpr.css");
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
@@ -19,3 +20,218 @@ body {
           font-size: 3.5rem;
         }
       }
+
+      .vertical-nav {
+        min-width: 12rem;
+        width: 12rem;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: all 0.4s;
+      }
+
+      .page-content {
+        width: calc(100%-13rem);
+        margin: 2rem 0 10rem 13rem;
+        transition: all 0.2s;
+      }
+
+    .DS-grey-bg {
+      background-color: #BFBCBC;
+    }
+
+    .DS-link {
+      color: #2151FE;
+      font-family: tenon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+.DS-body {
+    font-family: tenon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.65;
+  }
+
+  .design-system {
+    width: 100%;
+}
+
+.DS-p {
+  font-family: tenon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.65;
+    margin-bottom: 1.15rem;
+    color: #707070;
+  }
+
+
+  .design-system a {
+    font-family: tenon, sans-serif;
+      font-size: 1em;
+      font-weight: 700;
+      color: #2151FE;
+      text-decoration: underline;
+  }
+
+  .design-system a:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+
+
+  .DS-h1, .DS-h2, .DS-h3, .DS-h4 {
+    font-family: henriette, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.15;
+    color: #707070;
+  }
+
+        /* perfect fourth */
+
+        .DS-h1 {
+            margin-top: 0;
+            font-size: 3.77em;
+            font-weight: 900;
+          }
+
+          .DS-h2 {
+              font-size: 2.86em;
+            }
+
+          .DS-h3 {
+              font-size: 1.59em;
+            }
+
+          .DS-h4 {
+              font-size: 1.09em;
+            }
+
+          .DS-small {
+              font-size: .75em;
+            }
+
+            .DS-toggler {
+              border: 1px solid #707070;
+              border-radius: .25rem;
+            }
+
+            .navbar-toggler-icon {
+              background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+            }
+
+            .DS-nav {
+              background-color: #F7F4F4;
+              border-radius: 35px;
+              box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+            }
+
+            .DS-carousel-inner {
+              background-color: #fff;
+              border-radius: 35px;
+              box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+            }
+
+            .DS-carousel-caption {
+              background-color: rgba(172, 164, 164, 0.75);
+              border-radius: 5px;
+              padding: .5em;
+            }
+
+            .DS-card {
+              border-radius: 35px;
+              background-color: #f7f4f4;
+              border: 0;
+              box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+            }
+
+            .DS-card img {
+              border-radius: 35px 35px 0 0;
+            }
+
+            .DS-card .card-text {
+              font-family: tenon, sans-serif;
+              font-weight: 400;
+              font-style: normal;
+              color: #707070;
+            }
+
+            .DS-button {
+              background-color: #aca4a4;
+              border: 0;
+              border-radius: 35px;
+              color: #f7f4f4;
+              font-family: tenon, sans-serif;
+              font-weight: 700;
+            }
+
+            .DS-button:hover {
+              background-color: #707070;
+            }
+
+            .DS-accordion {
+              border-color: #707070;
+              border-radius: 35px;
+              box-shadow:  20px 20px 60px #d9d9d9,
+              -20px -20px 60px #ffffff;
+            }
+
+            .DS-accordion .card {
+              border-color: #707070;
+              border-radius: 35px;
+              background-color: #f7f4f4;
+              font-family: tenon, sans-serif;
+              font-weight: 400;
+              font-style: normal;
+              color: #707070;
+            }
+
+            .DS-accordion .card-header {
+              background-color: #aca4a4;
+              color: #f7f4f4;
+            }
+
+            .DS-accordion .card-header button {
+              color: #f7f4f4;
+            }
+
+            .DS-card-no-image {
+              border-radius: 35px;
+              background-color: #f7f4f4;
+              border: 0;
+              box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+            }
+
+            .DS-card-no-image .card-header {
+              background-color: #aca4a4;
+              border: 0;
+              border-radius: 35px 35px 0 0;
+            }
+
+            .DS-card-no-image .card-header .DS-h3 {
+              color: #f7f4f4;
+            }
+
+            .DS-top-button {
+              display: inline-block;
+              background-image: url("data:image/svg+xml,<svg viewBox='0 0 17 17' class='bi bi-arrow-up-circle-fill' fill='rgb(172, 164, 164)' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z'/></svg>");
+              background-repeat: no-repeat;
+              height: 3rem;
+              width: 3rem;
+            }
+
+            .DS-top-button:hover {
+              background-image: url("data:image/svg+xml,<svg viewBox='0 0 17 17' class='bi bi-arrow-up-circle-fill' fill='rgb(112, 112, 112)' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z'/></svg>");
+            }
+            
